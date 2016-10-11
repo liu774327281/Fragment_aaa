@@ -18,6 +18,7 @@ public class BlankFragmentAdapter extends FragmentPagerAdapter{
     public BlankFragmentAdapter(List<MyFargment> fragments, List<String> titles, FragmentManager fm, Context context){
         super(fm);
         this.context = context;
+       
         this.fragments=fragments;
         this.titles = titles;
     }
